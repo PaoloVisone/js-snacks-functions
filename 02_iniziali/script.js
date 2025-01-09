@@ -2,8 +2,19 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
-
 // Dichiara la funzione qui.
+
+function getFirstLetter() {
+
+    for (let i = 0; i < names.length; i++) {
+        let letter = names[i].slice(-1, 1);
+        return letter
+
+    }
+}
+
+console.log(getFirstLetter());
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
