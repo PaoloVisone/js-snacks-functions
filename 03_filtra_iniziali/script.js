@@ -2,12 +2,39 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-
 // Dichiara la funzione qui.
+
+function getLetterName(names) {
+    // Creo un nuovo array
+    const namesTwo = [];
+
+    // Ciclo l'array
+    for (let i = 0; i < names.length; i++) {
+        // console.log(names[i]);
+
+        // selziono i nomi
+        const nomi = names[i];
+        // console.log(nomi[0]);
+        // Seleziono le lettere
+        const firstLetter = nomi[0];
+
+        // if statement
+        if (firstLetter === "A") {
+            // push nel nuovo array
+            namesTwo.push(nomi);
+        }
+    }
+    // console.log(namesTwo);
+    return namesTwo;
+}
+
+
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+const inizialiFunc = getLetterName(names);
+console.log(inizialiFunc);
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
