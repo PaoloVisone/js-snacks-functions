@@ -30,14 +30,10 @@ function getFirstLetter(names) {
     return firstLetter;
 }
 
-
-
-
 // Invoca la funzione qui e stampa il risultato in console
 
 // console.log(getFirstLetter(names));
 const firstLetter = getFirstLetter(names);
 console.log(firstLetter);
-
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
