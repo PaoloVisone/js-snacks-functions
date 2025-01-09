@@ -28,10 +28,6 @@ function getLetterName(names) {
     return namesTwo;
 }
 
-
-
-
-
 // Invoca la funzione qui e stampa il risultato in console
 
 const inizialiFunc = getLetterName(names);
